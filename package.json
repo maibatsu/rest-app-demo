@@ -1,0 +1,13 @@
+{
+  "name": "rest-express",
+  "version": "1.0.0",
+  "description": "REST API app on Docker",
+  "author": "Andrei Orlov <andyorlov@ya.ru>",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
