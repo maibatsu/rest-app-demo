@@ -1,6 +1,4 @@
 const express = require("express");
-const list = require("./db/list");
-const amenities = require("./db/amenities");
 const list_controller = require("./controllers/list_controller");
 const amenities_controller = require("./controllers/amenities_controller");
 const API = express();
