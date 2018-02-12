@@ -2,12 +2,14 @@ FROM node:8.9.4
 
 WORKDIR /API
 
-COPY package*.json .
+RUN npm i -g nodemon
+
+COPY package*.json ./
 
 RUN npm i
 
-COPY src .
+COPY . .
 
-CMD node server.js
+CMD nodemon src/server.js
 
 EXPOSE 4000

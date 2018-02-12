@@ -3,11 +3,18 @@
   "version": "1.0.0",
   "description": "REST API app on Docker",
   "author": "Andrei Orlov <andyorlov@ya.ru>",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:maibatsu/rest-app-demo.git"
+  },
   "main": "./src/server.js",
   "scripts": {
-    "start": "node ./src/server.js"
+    "dev": "nodemon ./src/server.js"
   },
   "dependencies": {
     "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.12"
   }
 }
