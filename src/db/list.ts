@@ -1,4 +1,4 @@
-module.exports = [
+export const list: object[] = [
   {
     id: 27,
     name: "Stylish apartment in el born",

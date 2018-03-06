@@ -1,4 +1,4 @@
-module.exports = [
+export const amenities: string[] = [
   "Air conditioner",
   "Computerr",
   "Free wireless internet",
