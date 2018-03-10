@@ -10,6 +10,6 @@ RUN npm i
 
 COPY . .
 
-CMD nodemon src/server.js
-
 EXPOSE 4000
+
+CMD nodemon dist/server.js
