@@ -1,4 +1,4 @@
-FROM node:8.9.4
+FROM node:carbon
 
 WORKDIR /API
 
@@ -12,4 +12,4 @@ COPY . .
 
 EXPOSE 4000
 
-CMD nodemon dist/server.js
+CMD ["npm", "start"]

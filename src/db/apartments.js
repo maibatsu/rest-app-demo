@@ -1,15 +1,15 @@
-export const list: object[] = [
+module.exports = [
   {
     id: 27,
     name: 'Stylish apartment in el born',
     price: '85',
     location: {
       latitude: '41.393592',
-      longitude: '2.162570',
+      longitude: '2.162570'
     },
     imgUrl: '/img/pen.jpeg',
     altUrl: '/img/dogs.jpeg',
-    amenities: ['Guarded parking', 'Balcony', 'Dishwasher', 'Freezer'],
+    amenities: ['Guarded parking', 'Balcony', 'Dishwasher', 'Freezer']
   },
   {
     id: 36,
@@ -17,11 +17,11 @@ export const list: object[] = [
     price: '70',
     location: {
       latitude: '41.394195',
-      longitude: '2.164844',
+      longitude: '2.164844'
     },
     imgUrl: '/img/pen.jpeg',
     altUrl: '/img/dogs.jpeg',
-    amenities: ['Free wireless internet', 'Fireplace'],
+    amenities: ['Free wireless internet', 'Fireplace']
   },
   {
     id: 31,
@@ -29,11 +29,11 @@ export const list: object[] = [
     price: '60',
     location: {
       latitude: '41.393732',
-      longitude: '2.165551',
+      longitude: '2.165551'
     },
     imgUrl: '/img/pen.jpeg',
     altUrl: '/img/dogs.jpeg',
-    amenities: ['Air conditioner', 'Elevator', 'Terrace', 'Blender', 'Fridge'],
+    amenities: ['Air conditioner', 'Elevator', 'Terrace', 'Blender', 'Fridge']
   },
   {
     id: 14,
@@ -41,11 +41,11 @@ export const list: object[] = [
     price: '75',
     location: {
       latitude: '41.392794',
-      longitude: '2.164888',
+      longitude: '2.164888'
     },
     imgUrl: '/img/pen.jpeg',
     altUrl: '/img/dogs.jpeg',
-    amenities: ['Free Transportation', 'Guarded parking', 'Game room'],
+    amenities: ['Free Transportation', 'Guarded parking', 'Game room']
   },
   {
     id: 38,
@@ -53,11 +53,11 @@ export const list: object[] = [
     price: '90',
     location: {
       latitude: '41.392876',
-      longitude: '2.163260',
+      longitude: '2.163260'
     },
     imgUrl: '/img/pen.jpeg',
     altUrl: '/img/dogs.jpeg',
-    amenities: ['Cooking hob'],
+    amenities: ['Cooking hob']
   },
   {
     id: 35,
@@ -65,7 +65,7 @@ export const list: object[] = [
     price: '150',
     location: {
       latitude: '41.394479',
-      longitude: '2.163797',
+      longitude: '2.163797'
     },
     imgUrl: '/img/pen.jpeg',
     altUrl: '/img/dogs.jpeg',
@@ -75,7 +75,7 @@ export const list: object[] = [
       'Free wireless internet',
       'Game room',
       'Terrace',
-      'Fridge',
-    ],
-  },
+      'Fridge'
+    ]
+  }
 ];

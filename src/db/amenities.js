@@ -1,4 +1,4 @@
-export const amenities: string[] = [
+module.exports = [
   'Air conditioner',
   'Computerr',
   'Free wireless internet',
@@ -14,5 +14,5 @@ export const amenities: string[] = [
   'Fireplace',
   'Balcony',
   'Dishwasher',
-  'Freezer',
+  'Freezer'
 ];
