@@ -9,12 +9,20 @@
   },
   "main": "./src/server.js",
   "scripts": {
-    "start": "nodemon ./src/server.js"
+    "start": "nodemon ./src/server.js",
+    "lint": "./node_modules/.bin/eslint ./src/**/*.js",
+    "lintfix": "./node_modules/.bin/eslint --fix ./src/**/*.js"
   },
   "dependencies": {
     "express": "^4.16.2"
   },
   "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.11.0",
     "nodemon": "^1.17.3"
+  },
+  "engines": {
+    "node": ">=8.11.x"
   }
 }

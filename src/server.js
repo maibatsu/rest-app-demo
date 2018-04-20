@@ -10,6 +10,6 @@ API.use(express.static('static'));
 
 API.get('/api/apartments', apartments.getApartments);
 
-API.get('/api/getAmenities', amenities.amenitiesGet);
+API.get('/api/amenities', amenities.getAmenities);
 
 API.listen(4000, () => console.log(`API on port: ${port}`));

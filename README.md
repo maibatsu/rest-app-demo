@@ -7,7 +7,7 @@
 
 `npm i`
 
-`npm run dev`
+`npm start`
 
 ## Launch API on Docker
 
