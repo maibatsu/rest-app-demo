@@ -1,7 +1,6 @@
 # rest-app-demo
 
 * REST API: `Node.js, Express`
-* UI: `React`
 
 ## Launch API (without Docker)
 
